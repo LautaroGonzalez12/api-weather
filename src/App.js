@@ -1,10 +1,12 @@
 import React from 'react';
-
+import Header from './components/Header';
 
 function App() {
   return (
    <>
-    <h1>Api Weather</h1>
+    <Header
+      title = "Api Weather"
+    />
    </>
   );
 }
